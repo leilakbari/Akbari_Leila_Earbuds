@@ -5,23 +5,30 @@
   
   // variables
   const model = document.querySelector("#model");
-  const HotSpots = document.querySelectorAll;(".Hotspot");
+  const hotSpots = document.querySelectorAll;(".Hotspot");
 
   // functions
-
   function loaded () {
     // console.log(hotSpots);
-    HotSpots.forEach(HotSpot =>{
-      HotSpot.style.display = "block";
-    });
+    hotSpots.ForEach(hotSpot => {
+      hotSpot.style.display = "block";
+    })
+  }
+
+  function showInfo(e) {
+    console.log(e.currentTarget.slot);
+    let selected = document.querySelector('button[slot="${e.currentTarget.slot}"]');
+  }
+
+  function showInfo(e) {
+    console.log(e.currentTarget.slot);
   }
 
   // event listeners
   model.addEventListener("load", loaded);
-
-  HotSpots.forEach(hotSpot => {
-    HotSpot.addEventListener("mouseover", showInfo);
-    HotSpot.addEventListener("mouseover", hideInfo);
+  hotSpots.ForEach(hotSpot => {
+    hotSpot.addEventListener("mouseover", showInfo);
+    hotSpot.addEventListener("mouseover", hideInfo);
   })
   
 })();
