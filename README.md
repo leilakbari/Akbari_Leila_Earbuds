@@ -3,11 +3,11 @@
 This project showcases a pair of 3D earbuds designed with intricate details, presented through a promotional website. The website is built using HTML, CSS, SASS, and JavaScript, with user-friendly animations implemented via GSAP.
 
 ## Table of Contents
-Installation
-Usage
-Contributing
-Credits
-License
+.Installation
+.Usage
+.Contributing
+.Credits
+.License
 
 ## Installation
 The 3D earbuds were originally designed in Cinema 4D and integrated with interactive hotspots using modelviewer.dev. The project uses HTML for content, CSS and SASS for responsive styling, and JavaScript to display detailed information about each component. The responsive design ensures an optimal viewing experience on desktops (1920 and 1200 ), tablets (768), and mobile (320) devices. 
