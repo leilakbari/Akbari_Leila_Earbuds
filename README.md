@@ -1,14 +1,21 @@
 # Akbari_Leila_Earbuds
 
-In this project, a pair of 3D earbuds is designed with details and it is going to be turned into a promotional website. I used HTML, SCC, SASS, JS to code this page. I also used GSAP to make it more user-friendly and fun.
+This project showcases a pair of 3D earbuds designed with intricate details, presented through a promotional website. The website is built using HTML, CSS, SASS, and JavaScript, with user-friendly animations implemented via GSAP.
 
+## Table of Contents
+Installation
+Usage
+Contributing
+Credits
+License
 
 ## Installation
-The earbuds was first designed in C4D and with the help of https://modelviewer.dev/editor/ website I added some hotspost that shows different parts of the earbuds. HTML, CSS, SASS and javascript was used in coding the website. The HTML was used to write the content of the page, CSS and SASS was used to layout the layout as well as give some response to the website and JavaScript was used for the purpose of displaying the earbuds component information. This website was made to perfectly to suite three different devices that is Desktop (1920 and 1200 ), Tablet (768) and Mobile (320).
+The 3D earbuds were originally designed in Cinema 4D and integrated with interactive hotspots using modelviewer.dev. The project uses HTML for content, CSS and SASS for responsive styling, and JavaScript to display detailed information about each component. The responsive design ensures an optimal viewing experience on desktops (1920 and 1200 ), tablets (768), and mobile (320) devices. 
 
 ## Usage
 
-By clicking on the screen and rotating, you can see the entire outer body of the earbuds in 3D. Also, by clicking on each hotspot, the detailed description of the earbuds components will be shown. 
+Click and rotate: Interact with the 3D model by clicking on the screen to rotate and explore the exterior of the earbuds in 3D.
+Hotspots: Hover your mouse on each hotspot to reveal detailed descriptions of different earbuds components.
 
 
 ## Contributing
@@ -22,11 +29,11 @@ By clicking on the screen and rotating, you can see the entire outer body of the
 
 ## Credits
 
-Leila Akbari
+This project was created by Leila Akbari.
 
 ## License
 
-MIT
+This project is licensed under the MIT License.
 
 - - -
 © Fall-2023  Leila Akbari
