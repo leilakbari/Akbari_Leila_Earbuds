@@ -3,30 +3,33 @@
   
   // variables
   const model = document.querySelector("#model");
-  const hotSpots = document.querySelectorAll;(".Hotspot");
+  const hotSpots = document.querySelectorAll(".Hotspot");
 
   // functions
   function loaded () {
     // console.log(hotSpots);
-    hotSpots.ForEach(hotSpot => {
+    hotSpots.forEach(hotSpot => {
       hotSpot.style.display = "block";
     })
   }
 
-  function showInfo(e) {
+  function showInfoOnMouseOver(e) {
     console.log(e.currentTarget.slot);
-    let selected = document.querySelector('button[slot="${e.currentTarget.slot}"]');
+    let selected = document.querySelector(`button[slot="${e.currentTarget.slot}"] > div `);
+    gsap.to(selected, 1, {autoAlpha:1});
   }
 
-  function showInfo(e) {
+  function hideInfoOnMouseOut(e) {
     console.log(e.currentTarget.slot);
+    let selected = document.querySelector(`button[slot="${e.currentTarget.slot}"] > div `);
+    gsap.to(selected, 1, {autoAlpha:0});
   }
 
   // event listeners
   model.addEventListener("load", loaded);
-  hotSpots.ForEach(hotSpot => {
-    hotSpot.addEventListener("mouseover", showInfo);
-    hotSpot.addEventListener("mouseover", hideInfo);
+  hotSpots.forEach(hotSpot => {
+    hotSpot.addEventListener("mouseover", showInfoOnMouseOver);
+    hotSpot.addEventListener("mouseout", hideInfoOnMouseOut);
   })
-  
+
 })();
