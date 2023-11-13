@@ -1,0 +1,32 @@
+#explode-view {
+    max-width: 1200px;
+    padding-right: 35px;
+    // background-color: a.$secondary-color;
+    // position: relative;
+    // display: block;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.gsap-marker-end {
+    opacity: 0;
+}
+
+.gsap-marker-start {
+    opacity: 0;
+}
+
+.gsap-marker-scroller-end {
+    opacity: 0;
+}
+
+.gsap-marker-scroller-start {
+    opacity: 0;
+}
+
+#scroll {
+  // margin-left: 1px;
+//   height: 750px;
+  max-width: 1200px;
+  height: auto;
+}
