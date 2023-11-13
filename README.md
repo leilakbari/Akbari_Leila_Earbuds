@@ -1,6 +1,7 @@
 # Akbari_Leila_Earbuds
 
-Welcome to the Diba Earbuds 3D Showcase project! This repository features a pair of meticulously designed 3D earbuds, presented on an engaging promotional website. The website is crafted using a combination of HTML, CSS, SASS, and JavaScript, creating an immersive and visually appealing experience for users.
+Welcome to the Diba Earbuds 3D Showcase project! This repository features a pair of meticulously designed 3D earbuds, presented on an engaging promotional website. The website is crafted using a combination of HTML, CSS, SASS, and JavaScript, creating an immersive and visually appealing experience for users. 
+The Diba Earbuds 3D Showcase offers an engaging and interactive experience through an AR Model Viewer, Hotspots, and an X-Ray feature. The AR Model Viewer allows users to explore a detailed 3D representation of Diba Earbuds with user-friendly controls and supports augmented reality for an immersive experience. Hotspots provide interactive elements on the 3D model, offering detailed information about specific features. The X-Ray feature enables users to switch between regular and X-ray views, providing insights into the internal components of the earbuds. Together, these features create an educational and captivating platform for users to explore the design, materials, and functionalities of Diba Earbuds.
 
 ## Technologies Used
 
