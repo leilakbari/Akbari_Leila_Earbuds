@@ -2,51 +2,48 @@
 
 #footer-con {
   background-color: a.$secondary-color;
+  height: 120px;
 }
 
-#footer-con h3 {
-  font-family: a.$heading-font-family;
-  font-size: a.$footer-heading-font-size;
-  font-weight: 700;
-}
+// #footer-con a {
+//   font-family: a.$heading-font-family;
+//   font-size: a.$footer-heading-font-size;
+//   font-weight: 700;
+//   color: #fff;
+// }
 
 
-#footer-con h2 {
-  font-family: a.$body-font-family;
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: a.$primary-color;
-  opacity: 40%;
-}
+// #footer-con h2 {
+//   font-family: a.$body-font-family;
+//   font-size: 30px;
+//   font-weight: 700;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+//   color: a.$primary-color;
+//   opacity: 40%;
+// }
 
 #footer-con a {
   display: inline;
   font-family: a.$body-font-family;
   font-size: a.$mobile-body-font-size;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-weight: 600;
   color: a.$primary-color;
   opacity: 70%;
+  padding: 30px;
+  // grid-row: 2/4;
+}
+
+#footer-con a:hover {
+  color: #fff;
+}
+
+.col-1 {
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
-  #footer-icons ul {
-    display: flex;
-  }
-
-  .quicklinks ul li,
-  .contact ul li {
-    font-size: a.$body-font-size;
-  }
-
-  #footer-icons ul li {
-    font-size: a.$tablet-body-font-size;
-    list-style: none;
-    margin-right: 60px;
-  }
+  
 
   #footer-icons li:last-child {
     font-size: 15px;
@@ -56,20 +53,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  #footer-con h3 {
-    transform: rotate(-90deg);
-    font-size: 70px;
-    font-weight: bolder;
-  }
-
-  #footer-icons ul li {
-    margin-right: 80px;
-  }
-  .quicklinks-con,
-  .contacts-con {
-    grid-row: 2/2;
-    margin-top: auto;
-  }
+  
 
   #footer-icons li:last-child {
     font-size: a.$base-font-size;

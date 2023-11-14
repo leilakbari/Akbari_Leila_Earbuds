@@ -143,48 +143,28 @@ p {
 }
 #footer-con {
   background-color: #b7b6b3;
-}
-
-#footer-con h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-#footer-con h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #030422;
-  opacity: 40%;
+  height: 120px;
 }
 
 #footer-con a {
   display: inline;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-weight: 600;
   color: #030422;
   opacity: 70%;
+  padding: 30px;
+}
+
+#footer-con a:hover {
+  color: #fff;
+}
+
+.col-1 {
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
-  #footer-icons ul {
-    display: flex;
-  }
-  .quicklinks ul li,
-  .contact ul li {
-    font-size: 25px;
-  }
-  #footer-icons ul li {
-    font-size: 40px;
-    list-style: none;
-    margin-right: 60px;
-  }
   #footer-icons li:last-child {
     font-size: 15px;
     margin-left: auto;
@@ -192,19 +172,6 @@ p {
   }
 }
 @media screen and (min-width: 1200px) {
-  #footer-con h3 {
-    transform: rotate(-90deg);
-    font-size: 70px;
-    font-weight: bolder;
-  }
-  #footer-icons ul li {
-    margin-right: 80px;
-  }
-  .quicklinks-con,
-  .contacts-con {
-    grid-row: 2/2;
-    margin-top: auto;
-  }
   #footer-icons li:last-child {
     font-size: 18px;
   }
@@ -687,6 +654,13 @@ model-viewer > #ar-prompt > img {
   box-sizing: border-box;
 }
 
+#contact-section {
+  background: url("../images/contact-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .contact-form {
   background-color: #b7b6b3;
   position: relative;
@@ -778,8 +752,9 @@ model-viewer > #ar-prompt > img {
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: rgb(227, 227, 227);
   color: #2b3e24;
+  font-weight: 600;
 }
 
 #contact-image {
