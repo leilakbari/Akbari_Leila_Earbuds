@@ -1,11 +1,10 @@
 @use "../abstracts" as a;
 
-#hero-image {
-  visibility: hidden;
-}
-
-#about-me-image {
-  overflow: hidden;
+#hero{
+  background: url("../images/hero-back.png");
+  background-size: 1200px;
+  // background-position: center;
+  background-repeat: no-repeat;
 }
 
 #hero {
@@ -14,17 +13,25 @@
 }
 
 #hero-img {
-  margin-top: 20px;
+  margin-top: -300px;
+  // position: absolute;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-#hero-text h3 {
+#hero h3 {
   font-family: a.$heading-font-family;
   font-weight: normal;
-  color: a.$primary-color;
+  color: #fff;
   font-size: 80px;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 80px;
+  margin-left: 50px;
   font-weight: 500;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 #hero-text p {
@@ -32,7 +39,23 @@
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: 100px;
   font-size: 25px;
   line-height: 40px;
 }
+
+@media screen and (min-width: 768px) { 
+	#hero h3 {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+	#hero h3 {
+    font-size: 80px;
+    margin-top: 80px;
+  }
+
+  }
