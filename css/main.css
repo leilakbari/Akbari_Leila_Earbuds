@@ -42,22 +42,6 @@ p {
   max-width: 300px;
   margin-top: 20px;
 }
-#main-header ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-#main-header ul li {
-  margin-right: 20px;
-}
-#main-header ul li:last-child {
-  margin-right: 0px;
-}
-#main-header ul li a {
-  color: #fff;
-  text-decoration: none;
-}
 #main-header #main-nav {
   margin-top: 20px;
 }
@@ -74,7 +58,7 @@ p {
 #main-header .menuItem {
   display: block;
   margin: 2rem 3rem;
-  font-size: 2.5rem;
+  font-size: 40px;
   color: #2b3e24;
   font-weight: 400;
   text-decoration: none;
@@ -118,30 +102,6 @@ p {
   position: absolute;
 }
 
-#hero-text h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  color: #030422;
-  font-size: 80px;
-  margin-top: 30px;
-  margin-left: 20px;
-  font-weight: 500;
-}
-
-#hero {
-  background-color: #b7b6b3;
-  height: 500px;
-}
-
-#hero-text p {
-  top: 50%;
-  text-align: left;
-  margin-left: 20px;
-  margin-top: 30px;
-  font-size: 25px;
-  line-height: 40px;
-}
-
 @media screen and (min-width: 768px) {
   #sticky-nav-con {
     position: sticky;
@@ -156,6 +116,11 @@ p {
     max-width: 200px;
     margin-top: 0px;
   }
+  .menuItem {
+    display: block;
+    margin: 1rem 1rem;
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #main-header {
@@ -164,6 +129,16 @@ p {
   #logo {
     height: 85px;
     max-width: 300px;
+  }
+  .menuItem {
+    display: block;
+    margin: 2rem 3rem;
+    font-size: 2.5rem;
+    color: #2b3e24;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
   }
 }
 #footer-con {
@@ -324,7 +299,7 @@ p {
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 100px;
+  margin-top: 0px;
   font-size: 25px;
   line-height: 40px;
 }
